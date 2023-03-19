@@ -99,14 +99,13 @@
   \vspace{-1pt}\item
     \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & {\color{dark-grey}\small #2}\vspace{1pt}\\ % top row of resume entry
-      \textit{#3} & {\color{dark-grey} \small #4}\\ % second row of resume entry
     \end{tabular*}\vspace{-4pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
     \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
+      \textbf{\textit{\small #1}} & \textbf{\textit{\small #2}} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -150,48 +149,77 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {TrusTrace}{Nov. 2021 -- Present}
-      {Lead Quality Engineer}{}
+      {TrusTrace}{}
+      {}{}
+      \resumeSubSubheading
+      {Devops Engineer}{May. 2022 -- Present}
       \resumeItemListStart
-        \resumeItem{Led testing team, defined scope of testing, created a test plan for every release and was part of
-        Agile ceremonies}
-        \resumeItem{Built scalable and maintainable automation framework and test suites from the scratch using Playwright in Java}
-        \resumeItem{API testing using Retrofit to verify the backend services and reduced execution time of tests to 41\%}
-        \resumeItem{Containerized test scripts, and designed Jenkins pipeline to run tests in parallel}
+        \resumeItem{Implemented pipelines for App deployments, Power BI and ETL process using Azure devops and Jenkins}
+        \resumeItem{Configured and managed AWS \& Azure services like EC2, Lambda, S3, EBS, CloudFront, Data factories, Azure devops and Power BI}
+        \resumeItem{Created and managed cloud infrastructures using IaC tools like Terraform and Ansible}
+        \resumeItem{Designed and built Docker containers for various applications, enabling seamless deployment across multiple env}
+        \resumeItem{Implemented monitoring and alerting systems using tools like Prometheus and Grafana}
+      \resumeItemListEnd
+
+      \resumeSubSubheading
+      {Lead Quality Engineer}{Nov. 2021 -- Apr. 2022}
+      \resumeItemListStart
+        \resumeItem{Led a team of SDETs and ensured timely delivery of quality software by collaborating with cross-functional teams and implementing agile methodologies}
+        \resumeItem{Built scalable and maintainable automation framework using TypeScript and Playwright, resulting in improved test coverage and faster regression testing}
+        \resumeItem{Containerized test automation scripts, and designed Jenkins pipeline to run tests in parallel}
+        \resumeItem{Conducted API testing using tools like Postman, and SuperTest, ensuring proper functioning and data consistency}
+        \resumeItem{Collaborated with development teams to identify and address performance and scalability issues, using K6 tool to simulate user traffic and load}
+        \resumeItem{Mentored and trained team members on programming, automation and testing best practices}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Testvagrant Technologies}{Sep. 2020 -- Nov. 2021}
-      {Software Development Engineer in Test}{}
+      {Testvagrant Technologies}{}
+      {}{}
+      \resumeSubSubheading
+      {Software Development Engineer in Test}{Sep. 2020 -- Nov. 2021}
       \resumeItemListStart
-        \resumeItem{Built Web automation framework using WebDriverIO framework in Typescript, and integrated with CI}
-        \resumeItem{API testing using Postman for manual check and Node-fetch library as part of automation}
-        \resumeItem{Identify E2E scenarios that exercise operational and business work flows and automate}
-        \resumeItem{Conduct code review to ensure the work delivered by the team meets quality standards}
+        \resumeItem{Built Web automation framework from scratch using WebDriverIO in Typescript, and integrated it with Jenkins CI pipeline}
+        \resumeItem{Developed and maintained test automation infrastructure using tools like Selenoid and Docker, ensuring efficient and scalable test execution}
+        \resumeItem{Performed API testing using Postman for manual check and SuperTest library as part of automation}
+        \resumeItem{Identified and automated business critical workflows and end-to-end scenarios}
+        \resumeItem{Conducted code reviews and provided feedback on testing processes to the team members to meet quality standards}
+        \resumeItem{Conducted compatibility testing of applications on different browsers, and devices, ensuring optimal performance and user experience}
     \resumeItemListEnd
 
     \resumeSubheading
-      {Sysvine Technologies}{Feb. 2018 -- Jun. 2020}
-      {Quality Engineer II}{}
+      {Sysvine Technologies}{}
+      {}{}
+      \resumeSubSubheading
+      {Quality Engineer II}{Feb. 2018 -- Jun. 2020}
       \resumeItemListStart
-        \resumeItem{Web automation testing using Capybara in Ruby, and integrated with Circle CI}
+        \resumeItem{Created and maintained web automation testing using Capybara in Ruby, and integrated with Circle CI}
+        \resumeItem{Conducted exploratory testing to identify defects and improve the user experience of an application}
+        \resumeItem{Developed and maintained testing documentation, including test plans, test cases, and test reports, ensuring clear communication and understanding of testing processes}
         \resumeItem{Played a critical role in acquiring Workday global payroll partner certification}
-        \resumeItem{Involved in functional, usability, compatibility, regression, and bug reports utilizing Jira tracking system}
+        \resumeItem{Involved in functional, usability, compatibility, and regression testing}
+        \resumeItem{Conducted cross-browser and cross-platform testing of applications, ensuring compatibility and consistency across different environments}
+        \resumeItem{Worked with Jira and Qase to track user stories, bug reporting, test cases maintenance deployment processes}
+        \resumeItem{Performed root cause analysis of production incidents, identifying and addressing underlying causes to prevent future occurrences}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Aiway Solutions}{Dec. 2015 -- Jan. 2018}
-      {Associate Systems Engineer QA}{}
+      {Aiway Solutions}{}
+      {}{}
+      \resumeSubSubheading
+      {Associate Systems Engineer QA}{Dec. 2015 -- Jan. 2018}
       \resumeItemListStart
-        \resumeItem{Participated in daily stand-up, sprint-planning, and meet up with developers for
-        shorthand-off demonstrations.}
+        \resumeItem{Participated in daily stand-up, sprint-planning, and meet up with developers for shorthand-off demonstrations}
+        \resumeItem{Conducted functional testing of applications, ensuring adherence to user requirements and specifications}
         \resumeItem{Contributed to E2E web automation in Selenium using Java, and data driven approach using Apache POI libraries}
-        \resumeItem{Involved in functional, regression, retesting and preparing testcases for all the modules}
+        \resumeItem{Participated in stand-ups, showcase meetings, and client meetings for feature clarification}
+        \resumeItem{Involved in functional, regression, and retesting ensuring basic functionality and proper functioning of key features}
       \resumeItemListEnd
 
     \resumeSubheading
-      {TalentSprint}{Dec. 2014 -- May. 2015}
-      {Software Quality Assurance Intern}{}
+      {TalentSprint}{}
+      {}{}
+      \resumeSubSubheading
+      {Software Quality Assurance Intern}{Dec. 2014 -- May. 2015}
      
 
   \resumeSubHeadingListEnd
@@ -212,9 +240,9 @@
 \section{SKILLS}
  \begin{itemize}[leftmargin=0in, label={}]
     \small{\item{
-     \textbf{Languages}{: JavaScript/Typescript, and Java}\vspace{2pt} \\
-     \textbf{Tools and Framework}{: Selenium, Playwright, TestNG, Mocha, Gradle, Rest assured, Postman, Git, NPM, and Jira}
-     \textbf{Devops}{: Docker, Kubernetes, GCP, Jenkins, and Github Actions}
+     \textbf{Programming languages}{: JavaScript/Typescript, and Java} \\
+     \textbf{Tools and Framework}{: Selenium, Playwright, TestNG, Gradle, SuperTest, Rest assured, Postman, Git, NPM, and Jira}
+     \textbf{Devops}{: Docker, Kubernetes, AWS, GCP, Jenkins, Sonatype Nexus, Ansible, Terraform, Azure devops and Github Actions}
     }}
  \end{itemize}
 
