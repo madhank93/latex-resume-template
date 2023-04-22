@@ -1,5 +1,6 @@
-LaTeX template for my personal resume
+Last updated Apr 2023
 
-Based on [jakegut/resume](https://github.com/jakegut/resume)
+### Resources
 
-Used [LaTeX-Workshop](https://github.com/Jeff-Tian/LaTeX-Workshop)
+- [Jakegut/resume](https://github.com/jakegut/resume)
+- [LaTeX-Workshop](https://github.com/Jeff-Tian/LaTeX-Workshop)
